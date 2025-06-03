@@ -1,0 +1,5 @@
+add_executable(example_basic_usage example_basic_usage.cpp)
+target_link_libraries(example_basic_usage my_data_structures)
+
+add_executable(example_hash_table example_hash_table.cpp)
+target_link_libraries(example_hash_table my_data_structures) 
